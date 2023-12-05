@@ -41,7 +41,6 @@ for s in range(0 , len(seeds) , 2):
 					dt.append([max(source , r[0]) , min(destination , r[1]) , mxd])
 			st = r[0]
 			dt.sort()
-			nextreachable.sort()
 			# Find remaining seeds which couldn't be found
 			for n in dt:
 				nextreachable.append([n[0] + n[2] , n[1] + n[2]])
