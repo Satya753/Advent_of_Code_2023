@@ -11,8 +11,6 @@ with open('puzzle15a.txt' , 'r') as f:
         sequence=line.split(',')
 
 
-
-
 ans = 0
 for s in sequence:
     cnt = 0
